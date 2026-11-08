@@ -21,3 +21,15 @@ Our primary dataset is the Seoul Public Bicycle (Ttareungi) Rental History, obta
 ## Project Sessions
 - Session 1: Research Planning and Dataset Exploration
 - Future Sessions: To be updated
+
+## Session 1: Research Planning and Dataset Exploration
+
+### Project Documents
+
+1. [Paper Summary](Paper%20Summary.md)
+2. [Variable Selection Table](Variable%20Selection.md)
+3. [Supplementary Dataset](Supplementary%20Dataset.md)
+
+### Future Sessions
+
+Additional project updates and analysis results will be added here as the project progresses.
