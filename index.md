@@ -26,7 +26,7 @@ Our primary dataset is the Seoul Public Bicycle (Ttareungi) Rental History, obta
 
 ### Project Documents
 
-1. [Paper Summary](Paper%20Summary.html)
+1. [Paper Summary](Paper%20Summary.md)
 2. [Variable Selection Table](Variable%20Selection.md)
 3. [Supplementary Dataset](Supplementary%20Dataset.md)
 
