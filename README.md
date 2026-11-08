@@ -60,6 +60,3 @@ The full list of sources, including spatial context data, is on the [Supplementa
 
 Column names and category values are translated from Korean to English inside the notebooks.
 
-## Data licences
-
-Seoul Open Data Plaza datasets are released under the Korea Open Government License (KOGL) Type 1, which requires attribution: © Seoul Metropolitan Government. Weather data is from the Korea Meteorological Administration.
