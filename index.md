@@ -26,9 +26,13 @@ Our primary dataset is the Seoul Public Bicycle (Ttareungi) Rental History, obta
 
 ### Project Documents
 
-1. [Paper Summary]({{ '/Paper%20Summary.html' | relative_url }})
-2. [Variable Selection Table]({{ '/Variable%20Selection.html' | relative_url }})
-3. [Supplementary Dataset]({{ '/Supplementary%20Dataset.html' | relative_url }})
+
+### Project Documents
+
+1. [Paper Summary](https://daeyeong-mun.github.io/CDS-303-Final-project/Paper%20Summary.html)
+2. [Variable Selection Table](https://daeyeong-mun.github.io/CDS-303-Final-project/Variable%20Selection.html)
+3. [Supplementary Dataset](https://daeyeong-mun.github.io/CDS-303-Final-project/Supplementary%20Dataset.html)
+  
 ### Future Sessions
 
 Additional project updates and analysis results will be added here as the project progresses.
