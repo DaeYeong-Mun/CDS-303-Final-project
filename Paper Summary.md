@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ### Session 1: Paper Summary
 
 Understanding the Explainable Cluster Analysis Framework
@@ -39,7 +42,3 @@ By following this framework, our goal is not only to identify rental patterns bu
 
 After reading both papers, I understood that clustering becomes more useful when the results can be clearly explained. Data preprocessing and dimensionality reduction help improve the quality of the analysis, while clustering identifies patterns and classification helps explain them.
 The most important lesson is that finding groups is only part of the analysis. Understanding the characteristics of those groups is what makes the results meaningful and useful for decision making.
-
----
-layout: default
----
