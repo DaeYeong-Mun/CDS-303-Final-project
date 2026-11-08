@@ -3,6 +3,12 @@ layout: default
 ---
 ### Session 1: Paper Summary
 
+**Papers**
+
+1. Alvarez-Garcia, M., Ibar-Alonso, R., & Arenas-Parra, M. (2024). A comprehensive framework for explainable cluster analysis. *Information Sciences, 663*, 120282. <https://doi.org/10.1016/j.ins.2024.120282>
+2. Alvarez-Garcia, M., Arenas-Parra, M., & Ibar-Alonso, R. (2024). Uncovering student profiles. An explainable cluster analysis approach to PISA 2022. *Computers & Education, 223*, 105166. <https://doi.org/10.1016/j.compedu.2024.105166>
+
+
 Understanding the Explainable Cluster Analysis Framework
 The two papers by Alvarez Garcia and colleagues (2024) explain how clustering can be used to discover meaningful patterns in complex datasets while making the results easier to understand. The first paper introduces a framework for explainable cluster analysis, while the second paper applies this approach to student data from PISA 2022.
 The main idea is that clustering should not simply divide data into groups. It should also help researchers understand why those groups are different and what the results mean in real situations.
