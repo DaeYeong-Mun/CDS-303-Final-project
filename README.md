@@ -36,9 +36,9 @@ We follow the explainable cluster analysis framework of Alvarez-Garcia, Ibar-Alo
 | Section | Page |
 |---|---|
 | Project overview | [Overview](https://daeyeong-mun.github.io/CDS-303-Final-project/) |
-| Paper summary | [Paper Summary](https://github.com/DaeYeong-Mun/CDS-303-Final-project/blob/main/Paper%20Summary.md) |
-| Variable selection | [Variables](https://github.com/DaeYeong-Mun/CDS-303-Final-project/blob/main/Variable%20Selection.md) |
-| Supplementary dataset | [Supplementary Data](https://github.com/DaeYeong-Mun/CDS-303-Final-project/blob/main/Supplementary%20Dataset.md) |
+| Paper summary | [Paper Summary](https://daeyeong-mun.github.io/CDS-303-Final-project/Paper%20Summary.html) |
+| Variable selection | [Variables](https://github.com/DaeYeong-Mun/CDS-303-Final-project/blob/main/VariableSelection.md) |
+| Supplementary dataset | [Supplementary Data](https://github.com/DaeYeong-Mun/CDS-303-Final-project/blob/main/SupplementaryDataset.md) |
 
 ## Data
 
