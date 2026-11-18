@@ -13,14 +13,16 @@ An explainable cluster analysis of Seoul's public bike-share system, **Ttareungi
 
 > What distinct usage profiles do Seoul's Ttareungi bike-share stations show in January–June 2026, and which characteristics best explain those profiles: time-of-day patterns, weekday/weekend balance, trip length, rider mix and sensitivity to weather?
 
-**Unit of analysis:** the rental station. Trip-level records are aggregated into station-level features.
+**Unit of analysis:** the rental station. Trip-level records are aggregated into station-level features: morning/evening peak shares, night and weekend shares, median trip duration, round-trip share, morning/evening net flow, station size and non-member share.
+
+**Intended audience:** Seoul Facilities Corporation, which operates Ttareungi, for decisions on bike rebalancing, seasonal fleet planning and station capacity.
 
 ## Approach
 
 We follow the explainable cluster analysis framework of Alvarez-Garcia, Ibar-Alonso & Arenas-Parra (2024):
 
 1. **Data preprocessing:** clean trips, handle missing values and outliers, build station-level features
-2. **Dimensionality reduction:** remove redundant features, or reduce them if needed
+2. **Dimensionality reduction:** drop highly correlated features, standardize, and apply PCA to find the main directions of station behaviour
 3. **Clustering:** group stations with similar usage patterns
 4. **Classification for explainability:** predict the cluster labels with a classifier and use SHAP values to describe what defines each cluster
 
@@ -30,8 +32,9 @@ We follow the explainable cluster analysis framework of Alvarez-Garcia, Ibar-Alo
 |---|---|
 | `docs/` | Written project sections, published as the project website with GitHub Pages |
 | `notebooks/` | Jupyter notebooks with the supporting code |
+| `figures/` | Figures used on the project pages |
 
-## Project pages (Session 1)
+## Project pages
 
 | Section | Page |
 |---|---|
@@ -39,6 +42,7 @@ We follow the explainable cluster analysis framework of Alvarez-Garcia, Ibar-Alo
 | Paper summary | [Paper Summary](https://daeyeong-mun.github.io/CDS-303-Final-project/Paper%20Summary.html) |
 | Variable selection | [Variables](https://github.com/DaeYeong-Mun/CDS-303-Final-project/blob/main/Variable%20Selection.md) |
 | Supplementary dataset | [Supplementary Data](https://github.com/DaeYeong-Mun/CDS-303-Final-project/blob/main/Supplementary%20Dataset.md) |
+| Session 2: Principal Component Analysis | [PCA](https://daeyeong-mun.github.io/CDS-303-Final-project/PCA.html) |
 
 ## Data
 
@@ -49,14 +53,14 @@ We follow the explainable cluster analysis framework of Alvarez-Garcia, Ibar-Alo
 
 The full list of sources, including spatial context data, is on the [Supplementary Data page](https://daeyeong-mun.github.io/CDS-303-Final-project/supplementary-data.html#data-sources).
 
-**Raw data files are not stored in this repository.** The main trip file is about 3.1 GB, well over GitHub's 100 MB file limit.
+**Raw data files are not stored in this repository.** The main trip file is about 3.2 GB, well over GitHub's 100 MB file limit.
 
 ## Running the notebooks
 
 1. Download the datasets from the links above.
 2. Place the CSV files in the same folder as the notebook. The raw Korean files are CP949-encoded, and the notebooks handle this.
-3. Install the requirements: `pip install pandas numpy scikit-learn`. Later sessions will add more packages, such as `xgboost` and `shap`.
-4. Run the notebook from top to bottom. Loading the full trip file can take a few minutes and needs several GB of RAM.
+3. Install the requirements: `pip install pandas numpy scikit-learn matplotlib seaborn scipy`. Later sessions will add more packages, such as `xgboost` and `shap`.
+4. Run the notebook from top to bottom. The trip file is read in chunks, so it runs on a normal laptop; building the station features takes about one to two minutes.
 
 Column names and category values are translated from Korean to English inside the notebooks.
 
