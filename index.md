@@ -7,7 +7,7 @@
 - Oscar Molina Romualdo
 
 ## Project Title
-Explainable Cluster Analysis of Seoul Public Bicycle Rental Patterns
+Patterns of Urban Mobility: Explainable Clustering of Seoul’s Bike-Share Stations
 
 ## Project Overview
 This project aims to identify and explain different usage patterns in Seoul's public bicycle rental system, Ttareungi. We will use data preprocessing, dimensionality reduction, clustering, and classification to analyze how rental stations differ based on when they are used, how long their trips are, and who rides from them. By identifying groups of stations with similar usage, we hope to better understand how public bicycles are used in Seoul.
