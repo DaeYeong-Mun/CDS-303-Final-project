@@ -38,7 +38,7 @@ We follow the explainable cluster analysis framework of Alvarez-Garcia, Ibar-Alo
 | Paper summary | [Paper Summary](https://daeyeong-mun.github.io/CDS-303-Final-project/Paper%20Summary.html) |
 | Variable selection | [Variables](https://github.com/DaeYeong-Mun/CDS-303-Final-project/blob/main/Variable%20Selection.md) |
 | Supplementary dataset | [Supplementary Data](https://github.com/DaeYeong-Mun/CDS-303-Final-project/blob/main/Supplementary%20Dataset.md) |
-| Session 2: Principal Component Analysis | [PCA](https://daeyeong-mun.github.io/CDS-303-Final-project/PCA.html) |
+| Principal Component Analysis | [PCA](https://daeyeong-mun.github.io/CDS-303-Final-project/PCA.html) |
 
 ## Data
 
