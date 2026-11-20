@@ -5,7 +5,7 @@ layout: default
 
 **Goal:** many of our station features overlap. For example, stations with a high weekend share also tend to have long round trips. PCA combines correlated features into a smaller number of uncorrelated components that describe the main directions in which stations differ. These components are the input for the clustering step.
 
-Code: [Bike-S.ipynb](https://github.com/DaeYeong-Mun/CDS-303-Final-project/blob/main/notebooks/Bike-S.ipynb) (sections "Station-Level Behaviour Features" and "Principal Component Analysis"), following CDS 303 Demo 6.
+Code: [Bike-S.ipynb](https://github.com/DaeYeong-Mun/CDS-303-Final-project/blob/main/notebooks/Bike-S.ipynb) (sections "Station-Level Behaviour Features" and "Principal Component Analysis")
 
 ---
 
@@ -96,7 +96,7 @@ The sign of a component is arbitrary, so each component is oriented so that a re
 
 **PC2: Leisure vs. everyday utility.** A high score means long weekend round trips, often by casual riders. The highest scores are Han River stations (the Mangwon, Ttukseom and Yeouido ferry docks). The lowest scores are corporate campuses in Magok (LG Science Park, Lotte R&D Center), where trips are short, on weekdays, and made by regular members.
 
-**PC3: Night-time use.** High scores are stations used late at night, such as Itaewon Station exit 3 and Hansung University Station exit 7. Low scores are daytime park and neighbourhood stations such as World Cup Park.
+**PC3: Night-time use.** High scores are stations used late at night, such as Itaewon Station exit 3 and Hansung University Station exit 7. Low scores are daytime park and neighborhood stations such as World Cup Park.
 
 **PC4: Station size.** This separates very busy stations (e.g. Sillim Station exit 8, Omokgyo Station exit 3) from quiet ones, independently of how they are used.
 
@@ -110,14 +110,14 @@ These descriptions explain what high and low scores mean, using the most extreme
 
 Each point is a station and each red arrow is a variable. An arrow's direction shows which way that variable increases, and its length shows how strongly it contributes to PC1 and PC2.
 
-**How to read this plot.** PCA identifies directions of variation, not clusters, so any visual groupings in the scatter are not confirmed station types. The plot shows only PC1 and PC2 (57.0% of the variance). Four components are retained (81.0%), so PC3 and PC4 are not visible here: two stations that look close in this plot can still differ on night-time use or size.
+PCA identifies directions of variation, not clusters, so any visual groupings in the scatter are not confirmed station types. The plot shows only PC1 and PC2 (57.0% of the variance). Four components are retained (81.0%), so PC3 and PC4 are not visible here: two stations that look close in this plot can still differ on night-time use or size.
 
 **Visible patterns**
 
 - **The commute direction (PC1).** `am_peak_share` and `pm_net_flow` point left, while `pm_peak_share` and `am_net_flow` point right. These are two sides of the same daily cycle: stations further left lose bikes in the morning and regain them in the evening, and stations further right do the reverse.
 - **The leisure direction (PC2).** `weekend_share`, `median_duration_min`, `non_member_share` and `round_trip_share` point up. The Mangwon Han River dock is at the very top.
 - **The two directions combine.** The National Assembly gate is high on both PC1 (a workplace on weekdays) and PC2 (next to Yeouido Han River Park). Magoknaru Station exit 2, a busy transfer point, is near zero on PC1 because bikes flow both in and out at each peak.
-- **Uneven spread.** Most stations are concentrated near the centre and left. Fewer extend far to the right or toward the top (122 stations score above 3 on PC2, mostly by the river). The points form a continuous spread without clear gaps, so this plot alone does not show separate groups.
+- **Uneven spread.** Most stations are concentrated near the center and left. Fewer extend far to the right or toward the top (122 stations score above 3 on PC2, mostly by the river). The points form a continuous spread without clear gaps, so this plot alone does not show separate groups.
 
 **Relation to the research question.** We ask what distinct usage profiles Ttareungi stations show and which characteristics best explain them. PCA does not answer the first part on its own, since it finds directions rather than profiles. It does show which characteristics drive the differences between stations: mainly where a station sits in the daily commute (PC1) and whether it serves leisure or everyday trips (PC2), which together explain 57% of the variation. Night-time use (PC3) and station size (PC4) bring this to 81%. These four directions are where the clustering step will look for distinct profiles.
 
@@ -127,10 +127,9 @@ Each point is a station and each red arrow is a variable. An arrow's direction s
 - **PC2 (leisure ↔ utility), timing of demand:** high-PC2 stations such as the Han River docks need bikes on weekends, while low-PC2 stations need them on weekday mornings and evenings.
 - **PC4 (size), capacity:** how many bikes and docks a station needs, independently of how it is used.
 
-**Next step.** The four component scores (81.0% of the variance) are the input for clustering. Because they are standardized and uncorrelated, distance-based methods such as k-means treat each direction fairly. The clusters will then be explained with a classifier and SHAP values, and each cluster's weather sensitivity will be measured with a daily model.
 
 **Limitations**
 
-- The data covers January–June only, so the summer peak and July monsoon are missing, and summarising six months into one row per station hides seasonal changes in how a station is used.
+- The data covers January–June only, so the summer peak and July monsoon are missing, and summarizing six months into one row per station hides seasonal changes in how a station is used.
 - `non_member_share` and `round_trip_share` remain right-skewed after clipping, so a few leisure stations still strongly influence PC2.
-- PCA finds linear combinations only. Non-linear patterns will need to be checked in the clustering step.
+- PCA finds linear combinations only. 
