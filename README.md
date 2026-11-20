@@ -11,11 +11,7 @@ An explainable cluster analysis of Seoul's public bike-share system, **Ttareungi
 
 ## Research question
 
-> What distinct usage profiles do Seoul's Ttareungi bike-share stations show in January–June 2026, and which characteristics best explain those profiles: time-of-day patterns, weekday/weekend balance, trip length, rider mix and sensitivity to weather?
 
-**Unit of analysis:** the rental station. Trip-level records are aggregated into station-level features: morning/evening peak shares, night and weekend shares, median trip duration, round-trip share, morning/evening net flow, station size and non-member share.
-
-**Intended audience:** Seoul Facilities Corporation, which operates Ttareungi, for decisions on bike rebalancing, seasonal fleet planning and station capacity.
 
 ## Approach
 
