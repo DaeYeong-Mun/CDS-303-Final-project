@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-### Session 1: Paper Summary
+### Paper Summary
 
 **Papers**
 
