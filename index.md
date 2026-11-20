@@ -30,7 +30,7 @@ The original column names are in Korean and are translated to English in our not
 - Session 1: Research Planning and Dataset Exploration
 - Session 2: Station Features and Principal Component Analysis
 
-## Session 1: Research Planning and Dataset Exploration
+## Research Planning and Dataset Exploration
 
 ### Project Documents
 
@@ -38,7 +38,7 @@ The original column names are in Korean and are translated to English in our not
 2. [Variable Selection Table](https://daeyeong-mun.github.io/CDS-303-Final-project/Variable%20Selection.html)
 3. [Supplementary Dataset](https://daeyeong-mun.github.io/CDS-303-Final-project/Supplementary%20Dataset.html)
 
-## Session 2: Station Features and Principal Component Analysis
+##  Station Features and Principal Component Analysis
 
 We aggregated the 18.5 million trips into station-level features and applied PCA to 10 of them for 2,777 stations. Four components explain 81% of the variance: home end vs. work end of the commute, leisure vs. everyday use, night-time use, and station size. Weather sensitivity was moved to an analysis after clustering, because linking daily weather to six-month station summaries mixes weather with season and holidays.
 
