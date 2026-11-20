@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-### Session 2: Principal Component Analysis (PCA)
+### Principal Component Analysis (PCA)
 
 **Goal:** many of our station features overlap. For example, stations with a high weekend share also tend to have long round trips. PCA combines correlated features into a smaller number of uncorrelated components that describe the main directions in which stations differ. These components are the input for the clustering step.
 
