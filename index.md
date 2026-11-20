@@ -13,7 +13,7 @@ Patterns of Urban Mobility: Explainable Clustering of Seoul’s Bike-Share Stati
 This project aims to identify and explain different usage patterns in Seoul's public bicycle rental system, Ttareungi. We will use data preprocessing, dimensionality reduction, clustering, and classification to analyze how rental stations differ based on when they are used, how long their trips are, and who rides from them. By identifying groups of stations with similar usage, we hope to better understand how public bicycles are used in Seoul.
 
 ## Research Question
-Can Seoul's public bicycle rental stations be grouped into distinct usage patterns based on time-of-day patterns, weekday/weekend balance, trip length, and rider mix, and what characteristics, including sensitivity to weather, explain these groups?
+How do bicycle rental patterns vary across time periods, weather conditions, and rental stations in Seoul, and what underlying dimensions of usage variation can Principal Component Analysis (PCA) reveal?
 
 ## Dataset Description
 Our primary dataset is the Seoul Public Bicycle (Ttareungi) Rental History, obtained from the Seoul Open Data Plaza. It contains 18,511,943 rental records collected from January 1 to June 30, 2026, with 16 variables. These include rental and return times, rental stations, trip duration, travel distance, birth year, gender, and user type.
