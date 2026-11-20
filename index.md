@@ -29,7 +29,6 @@ The original column names are in Korean and are translated to English in our not
 ## Project Sessions
 - Session 1: Research Planning and Dataset Exploration
 - Session 2: Station Features and Principal Component Analysis
-- Future Sessions: To be updated
 
 ## Session 1: Research Planning and Dataset Exploration
 
@@ -46,6 +45,3 @@ We aggregated the 18.5 million trips into station-level features and applied PCA
 1. [Principal Component Analysis](https://daeyeong-mun.github.io/CDS-303-Final-project/PCA.html)
 2. [Variable Selection Table (updated)](https://daeyeong-mun.github.io/CDS-303-Final-project/Variable%20Selection.html)
 
-### Future Sessions
-
-Additional project updates and analysis results will be added here as the project progresses.
