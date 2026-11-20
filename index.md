@@ -27,8 +27,8 @@ Each record in the dataset is a single trip. Because our unit of analysis is the
 The original column names are in Korean and are translated to English in our notebook, [Bike-S.ipynb](https://github.com/DaeYeong-Mun/CDS-303-Final-project/blob/main/notebooks/Bike-S.ipynb), which loads the full trip dataset and reports its first rows, shape, columns, data types, summary statistics, and missing values.
 
 ## Project Sessions
-- Session 1: Research Planning and Dataset Exploration
-- Session 2: Station Features and Principal Component Analysis
+- Research Planning and Dataset Exploration
+- Station Features and Principal Component Analysis
 
 ## Research Planning and Dataset Exploration
 
