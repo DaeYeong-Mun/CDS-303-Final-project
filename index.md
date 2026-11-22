@@ -38,13 +38,13 @@ The original column names are in Korean and are translated to English in our not
 2. [Variable Selection Table](https://daeyeong-mun.github.io/CDS-303-Final-project/Variable%20Selection.html)
 3. [Supplementary Dataset](https://daeyeong-mun.github.io/CDS-303-Final-project/Supplementary%20Dataset.html)
 
-#### Project Sessions
+## Project Sessions
 
 - Research Planning and Dataset Exploration
 - Data Integration and Preparation
 - Station Features and Principal Component Analysis
 
-#### Data Integration and Preparation
+## Data Integration and Preparation
 
 We integrated 18,511,943 bicycle rental records with 181 daily weather observations from January to June 2026.
 
