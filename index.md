@@ -28,6 +28,7 @@ The original column names are in Korean and are translated to English in our not
 
 ## Project Sessions
 - Research Planning and Dataset Exploration
+- Data Integration and Preparation
 - Station Features and Principal Component Analysis
 
 ## Research Planning and Dataset Exploration
@@ -37,12 +38,6 @@ The original column names are in Korean and are translated to English in our not
 1. [Paper Summary](https://daeyeong-mun.github.io/CDS-303-Final-project/Paper%20Summary.html)
 2. [Variable Selection Table](https://daeyeong-mun.github.io/CDS-303-Final-project/Variable%20Selection.html)
 3. [Supplementary Dataset](https://daeyeong-mun.github.io/CDS-303-Final-project/Supplementary%20Dataset.html)
-
-## Project Sessions
-
-- Research Planning and Dataset Exploration
-- Data Integration and Preparation
-- Station Features and Principal Component Analysis
 
 ## Data Integration and Preparation
 
